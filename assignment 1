@@ -1,0 +1,19 @@
+#include<stdio.h>
+main()
+{
+	char ch;
+	scanf("%c",&ch);
+	if(ch>='a' && ch<='z' || ch>='A' && ch<='Z')
+	{
+		printf("Alphabet");
+	}
+	else
+	if(ch<='9' && ch>='0')
+	{
+		printf("digit");
+	}
+	else
+	{
+		printf("special character");
+	}
+}
