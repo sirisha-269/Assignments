@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essential Vitamins</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f9fc;
+            color: #333;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Section */
+        .header {
+            text-align: center;
+            padding: 30px 10px;
+            background-color: #e4f2ff;
+            border-radius: 10px;
+        }
+
+        .header h1 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 2.5rem;
+        }
+
+        .header p {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        /* Features Section */
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .feature-box {
+            background-color: #ffffff;
+            border-radius: 8px;
+            text-align: center;
+            padding: 15px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            width: 23%;
+        }
+
+        .feature-box img {
+            width: 100%;
+            height: 150px;
+            object-fit: contain; /* Ensures the image fits nicely */
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .feature-box h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .feature-box p {
+            font-size: 0.9rem;
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+        .feature-box .info {
+            font-size: 0.85rem;
+            color: #555;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #1a2b4c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>Essential Vitamins</h1>
+            <p>For Your Wellness, Packed With Quality Ingredients</p>
+            <center><img src="C:\Users\HP\Downloads\f2-1.png" width="150" height="150" alt="Logo"></center>
+        </div>
+
+        <!-- Features Section -->
+        <div class="features">
+            <div class="feature-box">
+                <img src="C:\Users\HP\Downloads\vitc.png" width="150" height="150" alt="Vitamin C">
+                <h3>Boost Energy</h3>
+                <p>Recharge your body naturally.</p>
+<div class="info">XYZ: Helps improve stamina and vitality.</div>
+<button onclick=See More</button>
+            </div>
+            <div class="feature-box">
+                <img src="C:\Users\HP\Downloads\pappermint.jpg" width="150" height="150" alt="Focus">
+                <h3>Improve Focus</h3>
+                <p>Stay sharp and focused.</p>
+<div class="info">XYZ: Helps improve stamina and vitality.</div>
+<button onclick=See More</button>
+            </div>
+            <div class="feature-box">
+                <img src="C:\Users\HP\Downloads\mutlivitamin.png" width="150" height="150" alt="Immunity">
+                <h3>Supports Health</h3>
+                <p>Improves overall immunity.</p>
+<div class="info">XYZ: Helps improve stamina and vitality.</div>
+<button onclick=See More</button>
+            </div>
+            <div class="feature-box">
+                <img src="C:\Users\HP\Downloads\zinc.png" width="150" height="150" alt="Fruit Flavors">
+                <h3>Great Taste</h3>
+                <p>Enjoy natural fruit flavors.</p>
+<div class="info">XYZ: Helps improve stamina and vitality.</div>
+<button onclick=See More</button>
+            </div>
+
+                
+       </div>
+<!-- News Section -->
+        <div class="news">
+            <div class="news-item">
+                <img src="C:\Users\HP\Downloads\img22.jpeg" width="200" height="200" alt="News1">
+                <img src="C:\Users\HP\Downloads\news4.jpg" width="200" height="200" alt="News 2">
+                <img src="C:\Users\HP\Downloads\news3.jpg"  width="200" height="200" alt="News 3">
+                <img src="C:\Users\HP\Downloads\news2.jpg"  width="200" height="200" alt="News 4">
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>&copy; 2024 Elbrit Wellness. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
